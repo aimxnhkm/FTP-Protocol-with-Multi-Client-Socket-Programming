@@ -1,0 +1,13 @@
+FTP PROTOCOL
+
+File Transfer Protocol (FTP) is a standard internet protocol for transmitting files between computer
+on the Internet over TCP/IP connection. FTP is a client-server protocol where a client will ask for 
+a file and a local ore remotes server will provide it.
+
+The end0users machine is typically calles the local host machine, which is connected via the
+internet to the remote host - which is the second machine runnning the FTP software
+
+Although a lot of file transfer is now handled using HTTP, FTP is still commonly used to transfer
+files for other application such as hidden behind the user interfaces of banking, a service that
+helps build a website and others. 
+
