@@ -1,0 +1,23 @@
+SOCKET PROGRAMMING
+
+What is Socket?
+-An interface between application and network which is used for communication between processes.
+-Used for interprocess communication.
+
+
+How Socket Works?
+1. The application creates a socket.
+2. The socket type dictates the style of communication.
+	a)Reliable - TCP
+	b)Best effort - UDP
+3.Once configure the application:
+-can pass data to socket for network transmission.
+-receive data from socket
+
+
+Primary Socket Function
+OPEN    - prepare input and output operation
+CLOSE	- stop operation and return
+WRITE	- put data from application
+READ	- get data and place in application
+CONTROL - set option
